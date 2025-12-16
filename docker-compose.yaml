@@ -1,0 +1,30 @@
+﻿version: '3.8'
+
+services:
+  product-db:
+    image: postgres:15-alpine
+    container_name: product_service_db
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=productsdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_product_data:/var/lib/postgresql/data
+
+  order-db:
+    image: postgres:15-alpine
+    container_name: order_service_db
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=ordersdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_order_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_product_data:
+  postgres_order_data:

@@ -20,7 +20,6 @@
           "net10.0"
         ],
         "sources": {
-          "/Users/user/packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -48,6 +47,20 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             }
           },
           "imports": [
