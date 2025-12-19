@@ -1,7 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using ProductService.Data;
-using ProductService.Entities; // Ha kell
+using ProductService.Entities;
 using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Common.Repositories;
+using Common.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,9 @@ builder.Services.AddDbContext<ProductDbContext>(options =>
 {
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddScoped<DbContext>(provider => provider.GetRequiredService<ProductDbContext>());
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 var app = builder.Build();
 

@@ -1,0 +1,13 @@
+/Users/user/Desktop/RDI/Microservice project/Common/bin/Debug/net10.0/Common.deps.json
+/Users/user/Desktop/RDI/Microservice project/Common/bin/Debug/net10.0/Common.dll
+/Users/user/Desktop/RDI/Microservice project/Common/bin/Debug/net10.0/Common.pdb
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.csproj.AssemblyReference.cache
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.AssemblyInfoInputs.cache
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.AssemblyInfo.cs
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.csproj.CoreCompileInputs.cache
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.sourcelink.json
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.dll
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/refint/Common.dll
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/Common.pdb
+/Users/user/Desktop/RDI/Microservice project/Common/obj/Debug/net10.0/ref/Common.dll

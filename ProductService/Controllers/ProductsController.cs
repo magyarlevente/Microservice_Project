@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProductService.Data;
 using ProductService.Entities;
+using Common.Repositories;
+using Common.Interfaces;
 
 namespace ProductService.Controllers
 {
@@ -9,16 +11,16 @@ namespace ProductService.Controllers
     [Route("api/products")]
     public class ProductsController : ControllerBase
     {
-        private readonly ProductDbContext _context;
-        public ProductsController(ProductDbContext context)
+        private readonly IRepository<Product> _repository;
+        public ProductsController(IRepository<Product> repository)
         {
-            _context = context;
+            _repository = repository;
         }
 
         [HttpGet]
         public async Task<IEnumerable<Dtos.ProductDto>> GetAllAsync()
         {
-            var products = await _context.Products.ToListAsync();
+            var products = await _repository.GetAllAsync();
             
             return products.Select(product => new Dtos.ProductDto(
                 product.Id, 
@@ -30,22 +32,18 @@ namespace ProductService.Controllers
         [HttpGet("{id}", Name = "GetProductById")]
         public async Task<ActionResult<Dtos.ProductDto>> GetByIdAsync(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-
+            var product = await _repository.GetByIdAsync(id);
+            
             if (product == null)
             {
                 return NotFound();
             }
             
-            return new Dtos.ProductDto(
-                product.Id,
-                product.Name,
-                product.Price,
-                product.Stock);
+            return new Dtos.ProductDto(product.Id, product.Name, product.Price, product.Stock);
         }
 
         [HttpPost]
-        public async Task<ActionResult<Dtos.ProductDto>> PostAsync(Dtos.CreateProductDto createDto)
+        public async Task<ActionResult<Dtos.ProductDto>> CreateAsync(Dtos.CreateProductDto createDto)
         {
             var product = new Product
             {
@@ -54,26 +52,24 @@ namespace ProductService.Controllers
                 Stock = createDto.Stock
             };
             
-            _context.Products.Add(product);
-            await _context.SaveChangesAsync();
+            await _repository.CreateAsync(product);
+            
             return CreatedAtRoute("GetProductById", new { id = product.Id }, 
-                new Dtos.ProductDto(product.Id, product.Name, product.Price, product.Stock));
+                    new Dtos.ProductDto(product.Id, product.Name, product.Price, product.Stock));
         }
         
         [HttpDelete("{id}")]
-
         public async Task<IActionResult> DeleteAsync(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-
-            if (product == null)
+            try
+            {
+                await _repository.RemoveAsync(id);
+                return NoContent();
+            }
+            catch (KeyNotFoundException)
             {
                 return NotFound();
             }
-            
-            _context.Products.Remove(product);
-            await _context.SaveChangesAsync();
-            return NoContent();
         }
     }
 }

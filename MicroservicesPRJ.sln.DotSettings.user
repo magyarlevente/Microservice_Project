@@ -1,0 +1,10 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5832ae1_002D175e_002D44bb_002Db9de_002D95934bbfc0e3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetAllAsync_ReturnsOkResult" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::9F01A226-B602-4A35-9443-8535A2355956::net10.0::ProductService.Tests.UnitTest1.GetAllAsync_ReturnsOkResult&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9F01A226-B602-4A35-9443-8535A2355956::net10.0::ProductService.Tests.UnitTest1.GetByIdAsync_ReturnsOkResult&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9F01A226-B602-4A35-9443-8535A2355956::net10.0::ProductService.Tests.UnitTest1.GetByIdAsync_ReturnsNotFoundResult&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9F01A226-B602-4A35-9443-8535A2355956::net10.0::ProductService.Tests.UnitTest1.CreateAsync_ReturnsCreatedResult&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::1175BC40-0D4C-4EB5-9393-296970EEB802::net10.0::OrderService.Tests.OrdersControllerTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

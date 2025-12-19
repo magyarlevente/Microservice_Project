@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using OrderService.Data;
 using OrderService.Entities;
+using Common.Interfaces;
 
 namespace OrderService.Controllers
 {
@@ -9,21 +10,21 @@ namespace OrderService.Controllers
     [Route("api/orders")]
     public class OrdersController : ControllerBase
     {
-        private readonly OrderDbContext _context;
+        private readonly IRepository<Order> _repository;
         private readonly HttpClient _httpClient;
         
         private const string ProductServiceUrl = "http://localhost:5235/api/products/";
         
-        public OrdersController(OrderDbContext context, HttpClient httpClient)
+        public OrdersController(IRepository<Order> repository, HttpClient httpClient)
         {
-            _context = context;
+            _repository = repository;
             _httpClient = httpClient;
         }
 
         [HttpGet]
         public async Task <IEnumerable<Dtos.OrderDto>> GetAllAsync()
         {
-            var orders = await _context.Orders.ToListAsync();
+            var orders = await _repository.GetAllAsync();
             return orders.Select(order =>
                 new Dtos.OrderDto(order.Id, order.ProductId, order.Quantity, order.TotalPrice,order.CreatedAt));
         }
@@ -31,7 +32,7 @@ namespace OrderService.Controllers
         [HttpGet("{id}", Name = "GetOrderById")]
         public async Task<ActionResult<Dtos.OrderDto>> GetByIdAsync(int id)
         {
-            var order = await _context.Orders.FindAsync(id);
+            var order = await _repository.GetByIdAsync(id);
 
             if (order == null)
             {
@@ -62,8 +63,7 @@ namespace OrderService.Controllers
                 Quantity = createDto.Quantity,
                 TotalPrice = product.Price * createDto.Quantity};
             
-            _context.Orders.Add(order);
-            await _context.SaveChangesAsync();
+            await _repository.CreateAsync(order);
             return CreatedAtRoute("GetOrderById", new { id = order.Id }, new Dtos.OrderDto(order.Id, order.ProductId, order.Quantity, order.TotalPrice, order.CreatedAt));
         }
     }
