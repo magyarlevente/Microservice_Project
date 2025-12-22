@@ -7,7 +7,7 @@ using ProductService.Entities;
 
 namespace ProductService.Tests;
 
-public class UnitTest1
+public class ProductsControllerTests
 {
     [Fact]
     public async Task GetAllAsync_ReturnsOkResult()
@@ -85,5 +85,35 @@ public class UnitTest1
 
         Assert.Equal(10, dto.Id);
         Assert.Equal("new product", dto.Name);
+    }
+    
+    [Fact]
+    public async Task DeleteAsync_ReturnsNoContent()
+    {
+        var mockRepo = new Mock<IRepository<Product>>();
+        
+        mockRepo.Setup(repo => repo.RemoveAsync(1))
+            .ReturnsAsync(new Product { Id = 1, Name = "Törölt Termék" });
+
+        var controller = new ProductsController(mockRepo.Object);
+        
+        var result = await controller.DeleteAsync(1);
+        
+        Assert.IsType<NoContentResult>(result);
+    }
+
+    [Fact]
+    public async Task DeleteAsync_ReturnsNotFound()
+    {
+        var mockRepo = new Mock<IRepository<Product>>();
+        
+        mockRepo.Setup(repo => repo.RemoveAsync(99))
+            .ThrowsAsync(new KeyNotFoundException());
+
+        var controller = new ProductsController(mockRepo.Object);
+        
+        var result = await controller.DeleteAsync(99);
+        
+        Assert.IsType<NotFoundResult>(result);
     }
 }

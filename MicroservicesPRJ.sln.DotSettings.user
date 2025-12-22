@@ -6,5 +6,6 @@
     &lt;TestId&gt;xUnit::9F01A226-B602-4A35-9443-8535A2355956::net10.0::ProductService.Tests.UnitTest1.GetByIdAsync_ReturnsNotFoundResult&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::9F01A226-B602-4A35-9443-8535A2355956::net10.0::ProductService.Tests.UnitTest1.CreateAsync_ReturnsCreatedResult&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::1175BC40-0D4C-4EB5-9393-296970EEB802::net10.0::OrderService.Tests.OrdersControllerTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::9F01A226-B602-4A35-9443-8535A2355956::net10.0::ProductService.Tests.UnitTest1&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

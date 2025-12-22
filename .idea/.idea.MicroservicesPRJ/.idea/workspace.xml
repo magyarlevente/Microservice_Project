@@ -13,21 +13,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f6f839-be0f-41b4-a03d-b948124ae228" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Common/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Interfaces/IRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Common/Repositories/Repository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OrderService.Tests/OrderService.Tests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MicroservicesPRJ/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MicroservicesPRJ.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicesPRJ.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MicroservicesPRJ/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MicroservicesPRJ/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/net10.0/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Common/bin/Debug/net10.0/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/bin/Debug/net10.0/Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Common/bin/Debug/net10.0/Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/Debug/net10.0/Common.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/net10.0/ref/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/Debug/net10.0/ref/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/Debug/net10.0/refint/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/Debug/net10.0/refint/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MicroservicesPRJ.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/MicroservicesPRJ.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/OrderService.Tests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/OrderService.Tests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/OrderService.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/OrderService.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.Tests.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/bin/Debug/net10.0/OrderService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/OrderService.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/ref/OrderService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/ref/OrderService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/refint/OrderService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/Debug/net10.0/refint/OrderService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/OrderService.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/OrderService.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/OrderService.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/OrderService.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/OrderService.Tests.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/OrderService.Tests.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService.Tests/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/Controllers/OrdersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/Controllers/OrdersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderService/Entities/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/Entities/Order.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/OrderService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/OrderService.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/Common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/OrderService.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/OrderService.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/OrderService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/OrderService.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/OrderService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/bin/Debug/net10.0/OrderService.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/OrderService.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -39,25 +76,36 @@
       <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/OrderService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/OrderService.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/obj/OrderService.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/OrderService.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/obj/OrderService.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/OrderService.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OrderService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/Controllers/ProductsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/Controllers/ProductsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/Entities/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Common/Entities/IEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/Entities/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/Entities/Product.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/Migrations/ProductDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/Migrations/ProductDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/ProductService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/ProductService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/ProductService.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/ProductService.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/ProductsControllerTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/ProductsControllerTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/Common.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/bin/Debug/net10.0/ProductService.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ProductService.Tests.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ref/ProductService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/ref/ProductService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/refint/ProductService.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/Debug/net10.0/refint/ProductService.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService.Tests/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/Common.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/Common.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/Common.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/Common.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/ProductService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/ProductService.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/ProductService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/bin/Debug/net10.0/ProductService.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/ProductService.sourcelink.json" afterDir="false" />
@@ -65,11 +113,6 @@
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/refint/ProductService.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/refint/ProductService.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/Debug/net10.0/rjsmrazor.dswa.cache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/obj/ProductService.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/ProductService.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductService/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductService/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProductService/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +258,8 @@
       <updated>1766060108417</updated>
       <workItem from="1766060110842" duration="2775000" />
       <workItem from="1766137505912" duration="2058000" />
-      <workItem from="1766140891975" duration="304000" />
+      <workItem from="1766140891975" duration="603000" />
+      <workItem from="1766392174933" duration="5494000" />
     </task>
     <servers />
   </component>
