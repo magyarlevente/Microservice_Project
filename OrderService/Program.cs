@@ -22,7 +22,7 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 builder.Services.AddHttpClient<OrderService.Controllers.OrdersController>(client => 
     {
-        client.BaseAddress = new Uri("http://localhost:5235/");
+        client.BaseAddress = new Uri("http://product-service-api");
     })
     .AddStandardResilienceHandler(options => 
     {
@@ -31,6 +31,12 @@ builder.Services.AddHttpClient<OrderService.Controllers.OrdersController>(client
     });
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<OrderDbContext>();
+    dbContext.Database.Migrate();
+}
 
 if (app.Environment.IsDevelopment())
 {

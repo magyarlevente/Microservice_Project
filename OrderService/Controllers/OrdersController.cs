@@ -15,7 +15,7 @@ namespace OrderService.Controllers
         private readonly HttpClient _httpClient;
         private readonly IMemoryCache _cache;
         
-        private const string ProductServiceUrl = "http://localhost:5235/api/products/";
+        private const string ProductServiceUrl = "http://product-service-api/api/products/";
         
         public OrdersController(IRepository<Order> repository, HttpClient httpClient, IMemoryCache cache)
         {
@@ -52,17 +52,18 @@ namespace OrderService.Controllers
 
             if (!_cache.TryGetValue(cacheKey,out Dtos.ProductDto? product))
             {
+                // Itt történik a hívás a másik service felé
                 var response = await _httpClient.GetAsync(ProductServiceUrl + createDto.ProductId);
                 if (!response.IsSuccessStatusCode)
                 {
-                    return BadRequest();
+                    return BadRequest($"Product Service hiba: {response.StatusCode}");
                 }
 
                 product = await response.Content.ReadFromJsonAsync<Dtos.ProductDto>();
 
                 if (product == null)
                 {
-                    return BadRequest();
+                    return BadRequest("A termék nem található.");
                 }
                 
                 var cacheEntryOptions = new MemoryCacheEntryOptions()
